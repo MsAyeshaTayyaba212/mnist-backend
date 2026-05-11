@@ -6,8 +6,10 @@ from PIL import Image
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from pyngrok import ngrok
-import nest_asyncio
+
+app = FastAPI()
+
+
 
 # =========================
 # CNN Model Definition
